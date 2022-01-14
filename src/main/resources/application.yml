@@ -1,0 +1,15 @@
+server.port: 8080
+
+spring:
+  application-name: BlockChain Demo
+
+chain:
+  addresses:
+    ws: wss://ropsten.infura.io/ws/v3/6f1e10967e744db78d2bf67649ea7095
+    rpc: https://ropsten.infura.io/v3/6f1e10967e744db78d2bf67649ea7095
+  account:
+    private-key: 2641c8ea08e8286135e20039b1a104cf73f1f95da3b2b870bf2c82df2d52043e
+  gas-price: 100000000000
+  gas-limit: 4712388
+
+
